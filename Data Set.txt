@@ -1,0 +1,28 @@
+Input Parameters (simulation scenarios):
+
+Scenario 1 (Peak Hour - Current Setup):
+
+arrival_rate = 540 vehicles/hour
+num_etc_booths = 4
+num_manual_booths = 4
+service_rate_etc = 720 vehicles/hour (avg. 5 seconds per vehicle)
+service_rate_manual = 240 vehicles/hour (avg. 15 seconds per vehicle)
+vehicle_mix = 70% ETC, 30% Manual
+
+Scenario 2 (Peak Hour - Proposed Setup):
+
+arrival_rate = 540 vehicles/hour
+num_etc_booths = 6 // Changed parameter
+num_manual_booths = 2 // Changed parameter
+service_rate_etc = 720 vehicles/hour
+service_rate_manual = 240 vehicles/hour
+vehicle_mix = 70% ETC, 30% Manual
+
+Output Metrics:
+
+average_wait_time_etc (seconds)
+average_wait_time_manual (seconds)
+overall_throughput (vehicles/hour)
+utilization_etc (%)
+utilization_manual (%)
+max_queue_length
